@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: #001545;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+}
+
+.titulos{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 3em;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button{
+    background-color: #ADE8F4;
+    font-size: 2em;
+    font-family: monospace;
+}

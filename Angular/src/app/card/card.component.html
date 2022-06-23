@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="card">
+        <div class="imagenes">
+            <img *ngIf="sword=='Enma'" src="https://www.otakulegion.com/wp-content/uploads/2020/12/rorona.jpg" alt="" class="img">
+            <img *ngIf="sword=='OtraEspada'" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5727be97-d97f-4095-92cf-6640b811ba67/dd5fov3-29720fba-2095-41c6-b341-6dd2e12c25c4.png/v1/fill/w_239,h_350,q_70,strp/941_zoro_sorprendido_por_la_noticia_sobre_tonoyasu_by_0godussop0_dd5fov3-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg3NSIsInBhdGgiOiJcL2ZcLzU3MjdiZTk3LWQ5N2YtNDA5NS05MmNmLTY2NDBiODExYmE2N1wvZGQ1Zm92My0yOTcyMGZiYS0yMDk1LTQxYzYtYjM0MS02ZGQyZTEyYzI1YzQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.g33tqpjdm3mUC2pbMo3GEEgByv5uhsKIbxV0wf_ByLo" alt="" class="img">
+        </div>
+        <br>
+        <div class="titulos">
+            <h2 *ngIf="sword=='Enma'" class="title">{{sword}}, la mejor espada de Zoro</h2>
+            <h2 *ngIf="sword=='OtraEspada'" class="title">{{sword}}, esta no es la espada de Zoro!</h2>
+        </div>
+        <br>
+        <div class="botones">
+            <button (click)="changeSword()"  class="button">Change the Sword</button>
+            <button (click)="firstSword()" class="button"> Change to Fist Sword</button>
+        </div>
+    </div>
+</div>

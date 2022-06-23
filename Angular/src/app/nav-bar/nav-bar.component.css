@@ -1,0 +1,19 @@
+.container{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.ph{
+    max-width: 100%;
+}
+
+.titulo{
+    margin-left: 12%;
+}
+
+.text{
+    color: #FFFFFF;
+    font-size: 6.5em;
+    font-family: cursive;
+}

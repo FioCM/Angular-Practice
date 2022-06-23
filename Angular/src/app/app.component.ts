@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular';
+
+  caracters:Array<string>=["Luffy","Zoro","Chopper"]
+  caracters2:Array<string>=["Ace","Shanks","Nami"]
 }
